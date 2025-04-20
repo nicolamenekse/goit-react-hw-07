@@ -1,0 +1,32 @@
+.container {
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
+.container form {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.container form input {
+  outline: none;
+  padding: 20px;
+  font-size: 1rem;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.container button {
+  border-radius: 5px;
+  padding: 10px;
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.loading{
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    margin: 30px;
+}

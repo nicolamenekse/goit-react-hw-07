@@ -1,0 +1,33 @@
+
+.main{
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+.main ul{
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.main ul li{
+    border: 2px solid aqua;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.main button{
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+
+}
+
